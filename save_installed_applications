@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# This is a script to save installed application configs to a text file
+
+sudo dpkg --get-selections > installed-applications.txt

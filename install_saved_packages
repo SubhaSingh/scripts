@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# This is a script to install saved application configs
+
+sudo dpkg --set-selections < installed-applications.txt
+sudo apt-get -y update
+sudo apt-get dselect-upgrade
